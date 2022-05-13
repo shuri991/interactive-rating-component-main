@@ -20,13 +20,14 @@ body {
     margin: 0;
     background: var(--Very-Dark-Blue);
     Font-size: 15px;
+    font-family: 'OverPass';
 }
 
 .container {
-width: 30%;
-height: 400px;
-margin: 100px 440px 100px;
-padding: 40px;
+max-width: 25%;
+min-width: 350px;
+margin: 125px auto;
+padding: 30px;
 background: var(--Dark-Blue);
 border-radius: 30px;
 
@@ -34,31 +35,69 @@ border-radius: 30px;
 
 .container-img {
     background: var(--Dark-Blue2);
-    width: 10%;
+    width: 20px;
     display: flex;
     justify-content: center;
-    padding: 13px;
+    padding: 15px;
     border-radius: 50%;
 }
 
-.container-img img{
-    height: 20px;
-    padding: 10px;
+.container-question {
+    margin: 30px 10px;
 }
 
-.container-question {
+.container-question h1 {
     color: var(--White);
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+    font-weight: 700;
+}
+
+.container-question p {
+    color: var(--Light-Grey);
+    font-weight: 700;
+    line-height: 25px;
+    
 }
 
 .container-listNumber {
-    color: white;
+    color: var(--Light-Grey);
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    padding: 0px;
+    margin-bottom: 40px;
 }
+
+.container-listNumber li {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 20px;
+    border-radius: 50%;
+    background: var(--Dark-Blue2);
+}
+
+.container-listNumber li:hover {
+    background: var(--Orange);
+    color: var(--White);
+}
+
+.button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    background: var(--Orange);
+    border: none;
+    color: var(--White);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
 .attribution {
-  font-size: 11px; 
+  font-size: 15px; 
   text-align: center; 
+  color: var(--White);
 }
 .attribution a {
   color: hsl(228, 45%, 44%); 
