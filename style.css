@@ -93,6 +93,43 @@ border-radius: 30px;
     font-weight: 700;
 }
 
+.img-thank {
+    padding: 10px 25%;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.section h6 {
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 50px;
+    background: var(--Dark-Blue2);
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: var(--Orange);
+}
+
+.section h1 {
+   color: var(--White);
+   font-family: sans-serif;
+   margin: 10px auto;
+}
+
+.section p {
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+    color: var(--Medium-Grey);
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 25px;
+}
 
 .attribution {
   font-size: 15px; 
